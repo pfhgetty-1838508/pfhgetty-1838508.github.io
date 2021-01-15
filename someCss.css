@@ -1,0 +1,28 @@
+#grass {
+  width:50px;
+  height:50px;
+  margin:20px;
+}
+
+#pineapple {
+  float:right;
+}
+
+.font1 {
+  font-family: "Times New Roman";
+  font-weight: 800;
+}
+
+.container {
+  position: relative;
+  text-align: center;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-style: dotted;
+  border-radius: 5px;
+}
